@@ -1,3 +1,3 @@
 # Landing-Page
-a simple landing page for a website
+a simple landing page for a website.
 
