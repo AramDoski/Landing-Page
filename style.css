@@ -1,0 +1,42 @@
+body{
+    
+    height: 100vh;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex-grow: 1;
+}
+.all{
+    flex:1;
+}
+.header{
+    background: #1F2937;
+    flex: 1;
+    height: 220px;
+}
+.top{
+    
+}
+.logo{
+    font-size: 24px;
+    color: #F9FAF8;
+}
+.links{
+    font-size: 18px;
+    color: #E5E7EB;
+}
+.info{
+    height: 218px;
+
+}
+.quote{
+    background: #E5E7EB;
+    height: 218px;
+
+}
+.footer{
+    height: 218px;
+    display: flex;
+    flex-grow: 1;
+}
