@@ -1,42 +1,70 @@
+
 body{
-    
-    height: 100vh;
     margin: 0;
+    padding: 0;
+}
+.all{
+    height: 100vh;
+    width: 100%;
+    margin: 0;
+    padding: 0;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    flex-grow: 1;
-}
-.all{
-    flex:1;
+    
 }
 .header{
     background: #1F2937;
-    flex: 1;
-    height: 220px;
+    flex: 1.5;
+    font-family: "Roboto";
+    justify-content: flex;
+
 }
 .top{
-    
+    display: flex;
+    padding: 20px;
+    justify-content: space-around;
+    gap: 600px;
 }
 .logo{
     font-size: 24px;
     color: #F9FAF8;
 }
 .links{
+    display: flex;
+    gap: 20px;
+    
+}
+.links,.hero-second{
     font-size: 18px;
     color: #E5E7EB;
 }
-.info{
-    height: 218px;
+.hero-main{
+    font-size: 48px;
+    font-weight: 900;
+    color: #F9FAF8;
+    width: 300px;
+}
 
+.bottom{
+
+}
+img{
+    height: 200px;
+    width: 400px;
+}
+
+.info{
+    /* height: 218px; */
+    flex: 1;
 }
 .quote{
     background: #E5E7EB;
-    height: 218px;
-
+    /* height: 218px; */
+    flex: 1;
 }
 .footer{
-    height: 218px;
+    /* height: 218px; */
     display: flex;
-    flex-grow: 1;
+    flex: 1;
 }
