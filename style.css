@@ -5,26 +5,20 @@ body{
 }
 .all{
     height: 100vh;
-    width: 100%;
-    margin: 0;
-    padding: 0;
     display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    
+    flex-direction: column;    
 }
+/* first part */
 .header{
     background: #1F2937;
     flex: 1.5;
     font-family: "Roboto";
-    justify-content: flex;
-
 }
 .top{
     display: flex;
     padding: 20px;
     justify-content: space-around;
-    gap: 600px;
+    gap: 300px;
 }
 .logo{
     font-size: 24px;
@@ -33,11 +27,17 @@ body{
 .links{
     display: flex;
     gap: 20px;
-    
+    list-style: none;
 }
 .links,.hero-second{
     font-size: 18px;
     color: #E5E7EB;
+}
+.bottom{
+    display: flex;
+    padding: 20px;
+    justify-content: space-evenly;
+    gap: 200px;
 }
 .hero-main{
     font-size: 48px;
@@ -45,26 +45,35 @@ body{
     color: #F9FAF8;
     width: 300px;
 }
-
-.bottom{
-
+.hero-second{
+    width: 400px;
+    margin-bottom: 8px;
+}
+.header-signup{
+    padding: 5px 25px;
+    color: white;
+    background-color: #3882F6;
+    border-radius: 8px;
+    border: none;
 }
 img{
     height: 200px;
-    width: 400px;
+    width: 450px;
 }
+/* second part */
 
 .info{
-    /* height: 218px; */
     flex: 1;
 }
+/* third part */
+
 .quote{
     background: #E5E7EB;
-    /* height: 218px; */
     flex: 1;
 }
+/* fourth part */
+
 .footer{
-    /* height: 218px; */
     display: flex;
     flex: 1;
 }
