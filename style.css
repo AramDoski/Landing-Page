@@ -33,7 +33,7 @@ body{
     gap: 25px;
 }
 a{
-    color: #e5e7eb;
+    color: #E5E7EB;
     text-decoration: none;
 }
 .links,.hero-second{
@@ -70,30 +70,37 @@ img{
 }
 /* second part */
 .information{
-    height: 470px;
+    height: 400px;
+    padding: 50px;
     display: flex;
     flex-direction: column;
     align-items: center;
+    gap: 50px;
 }
 .info-main{
     font-size: 36px;
     color: #1f2937;
     font-weight: 900;
 }
-.info{
+.info-body{
+    display: flex;
+    gap: 50px;
+}
+.info-text-img{
     display: flex;
     flex-direction: column;
-    flex-wrap: wrap;
-    height: 100px;
+    gap: 8px;
 }
 .info-image{
-    border:2px solid #3882F6;
+    border: 4px solid #3882F6;
     width: 150px;
     height: 150px;
+    border-radius: 8px;
 }
 .info-text{
     text-align: center;
     width: 150px;
+    color: #646566;
 }
 /* third part */
 
