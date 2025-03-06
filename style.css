@@ -2,35 +2,38 @@
 body{
     margin: 0;
     padding: 0;
+    font-family:"Roboto";
+
 }
 .all{
-    height: 100vh;
     display: flex;
     flex-direction: column;    
+    max-width: 2000px;
 }
 /* first part */
 .header{
+    height:470px;
     background: #1F2937;
-    font-family:"Roboto";
 }
 .top{
-    height: 100px;
     display: flex;
-    padding-top: 3px;
+    padding-top: 10px;
     justify-content: space-around;
     align-items: baseline;
-    gap: 300px;
+    gap: 180px;
+    margin-bottom: 80px;
 }
 .logo{
     font-size: 24px;
     color: #F9FAF8;
+    font-weight: bold;
 }
 .links{
     display: flex;
-    gap: 20px;
+    gap: 25px;
 }
 a{
-    color: white;
+    color: #e5e7eb;
     text-decoration: none;
 }
 .links,.hero-second{
@@ -42,7 +45,7 @@ a{
     padding: 20px 0px;
     justify-content: space-evenly;
     align-items: flex-end;
-    gap: 200px;
+    gap: 150px;
 }
 .hero-main{
     font-size: 48px;
@@ -52,7 +55,7 @@ a{
 }
 .hero-second{
     width: 400px;
-    margin-bottom: 8px;
+    margin-bottom: 15px;
 }
 .header-signup{
     padding: 5px 25px;
@@ -63,12 +66,34 @@ a{
 }
 img{
     height: 200px;
-    width: 450px;
+    width: 500px;
 }
 /* second part */
-
+.information{
+    height: 470px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.info-main{
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: 900;
+}
 .info{
-
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: 100px;
+}
+.info-image{
+    border:2px solid #3882F6;
+    width: 150px;
+    height: 150px;
+}
+.info-text{
+    text-align: center;
+    width: 150px;
 }
 /* third part */
 
