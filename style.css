@@ -45,7 +45,7 @@ a{
     padding: 20px 0px;
     justify-content: space-evenly;
     align-items: flex-end;
-    gap: 100px;
+    gap: 20px;
 }
 .hero-main{
     font-size: 48px;
@@ -54,15 +54,17 @@ a{
     width: 350px;
 }
 .hero-second{
-    width: 400px;
+    width: 450px;
     margin-bottom: 15px;
 }
 .header-signup{
-    padding: 5px 25px;
+    padding: 8px 37px;
     color: white;
     background-color: #3882F6;
     border-radius: 8px;
     border: none;
+    font-weight: bold;
+    font-size: 18px;
 }
 img{
     height: 200px;
@@ -120,15 +122,44 @@ img{
 }
 .quoter{
     font-weight: bold;
-    font-size: 28px;
-    padding-left: 450px;
+    font-size: 25px;
+    padding-left: 470px;
 }
 /* fourth part */
 
 .footer{
     display: flex;
-    height: 300px;
+    height: 400px;
+    justify-content: center;
+    align-items: center;
 }
 .pop-up{
-    height: 100px;
+    height: 160px;
+    width: 1020px;
+    background-color: #3882F6;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 10px;
+}
+.footer-hero{
+    font-weight: bold;
+    font-size: 25px;
+    color: white;
+    margin-bottom: 2px;
+}
+.footer-second{
+    font-size: 18px;
+    color: #E5E7EB;
+
+}
+.footer-signup{
+    padding: 8px 37px;
+    color: white;
+    background-color: #3882F6;
+    border-radius: 8px;
+    border: none;
+    font-weight: bold;
+    font-size: 18px;
+    border: 2px solid white;
 }
